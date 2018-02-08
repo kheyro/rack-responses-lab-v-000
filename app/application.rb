@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
 
     t = Time.now
-    msg = (t.hour > 12) ? "Good afternoon" : "Good morning"
+    msg = (t.hour > 12) ? "Good Afternoon!" : "Good Morning!"
     resp.write msg
 
     resp.finish
