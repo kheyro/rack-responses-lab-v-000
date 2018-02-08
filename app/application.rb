@@ -8,4 +8,5 @@ class Application
     resp.write msg
 
     resp.finish
+  end
 end
